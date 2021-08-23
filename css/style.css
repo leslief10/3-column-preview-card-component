@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #E38826;
+  --secondary-color: #006970;
+  --tertiary-color: #004241;
+  --light-color: #f2f2f2;
+  --main-font: 'Lexend Deca', sans-serif;
+  --secondary-font: 'Big Shoulders Display', cursive;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.columns-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 360px;
+  height: auto;
+  padding: 88px 24px;
+  background-color: var(--light-color);
+}
+
+.columns-card__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 327px;
+  min-height: 442px;
+  padding-bottom: 70px;
+}
+.columns-card__sedan-container {
+  background-color: var(--primary-color);
+  border-radius: 10px 10px 0 0;
+}
+
+.columns-card__suv-container {
+  background-color: var(--secondary-color);
+}
+
+.columns-card__luxury-container {
+  background-color: var(--tertiary-color);
+  border-radius: 0 0 10px 10px;
+}
+
+.columns-card__image-container {
+  width: 65px;
+  height: 41px;
+  margin: 49px 0 42px 50px;
+}
+
+.columns-card__info-container h3 {
+  margin: 0 0 38px 50px;
+  font-size: 4.2rem;
+  line-height: 3.6rem;
+  font-family: var(--secondary-font);
+  color: var(--light-color);
+}
+
+.columns-card__info-container p {
+  margin: 0 38px 32px 50px;
+  padding-bottom: 32px;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+  line-height: 2.6rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.columns-card__button {
+  margin: 0 0 48px 50px;
+  padding: 24px 73px;
+  border-radius: 30px;
+  background-color: var(--light-color);
+}
+
+.columns-card__info-container a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: var(--main-font);
+}
+
+.columns-card__button-sedan {
+  color: var(--primary-color);
+}
+
+.columns-card__button-sedan:hover, .columns-card__button-suv:hover, .columns-card__button-luxury:hover {
+  color: var(--light-color);
+}
+
+.button__sedan:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--light-color);
+}
+
+.columns-card__button-suv {
+  color: var(--secondary-color);
+}
+
+.button__suv:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--light-color);
+}
+
+.columns-card__button-luxury {
+  color: var(--tertiary-color);
+}
+
+.button__luxury:hover {
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--light-color);
+}
+
+footer {
+  background-color: var(--light-color);
+  text-decoration: none;
+  text-align: center;
+  color: var(--tertiary-color);
+}
+
+footer a {
+  color: var(--tertiary-color);
+}

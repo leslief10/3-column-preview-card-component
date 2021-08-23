@@ -1,0 +1,35 @@
+@media only screen and (min-width: 750px) {
+  .columns-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 99vh;
+  } 
+
+  .columns-card__container {
+    max-height: 500px;
+  }
+
+  .columns-card__sedan-container {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .columns-card__suv-container {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+@media only screen and (min-width: 1030px) {
+  .columns-card__sedan-container {
+    border-radius: 10px 0 0 10PX;
+  }
+
+  .columns-card__suv-container {
+    border-radius: 0;
+  }
+
+  .columns-card__luxury-container {
+    border-radius: 0 10px 10px 0;
+  }
+}
