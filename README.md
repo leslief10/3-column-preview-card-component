@@ -38,8 +38,6 @@ I still have a lot to learn about proper positioning using the box model, and ho
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Leslie Fernandez](https://github.com/leslief10)
