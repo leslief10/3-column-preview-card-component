@@ -77,7 +77,7 @@ html {
 
 .columns-card__button {
   margin: 0 0 48px 50px;
-  padding: 24px 73px;
+  padding: 14px 30px;
   border-radius: 30px;
   background-color: var(--light-color);
 }
