@@ -7,6 +7,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Continued development](#continued-development)
@@ -26,6 +27,10 @@ Users should be able to:
 
 ![](./design/mobile-solution.png)
 ![](./design/desktop-solution.png)
+
+### Links
+
+- Live Site URL: [3-column preview card component](https://leslief10.github.io/3-column-preview-card-component/)
 
 ## My process
 
